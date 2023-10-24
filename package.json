@@ -6,7 +6,9 @@
     "start": "nx serve nxng",
     "build": "nx build nxng",
     "test": "nx test nxng",
-    "lint": "nx lint nxng"
+    "lint": "nx lint nxng",
+    "e2e": "nx e2e nxng-e2e",
+    "e2e:dev": "nx e2e nxng-e2e --baseUrl=https://nxng-fm.netlify.app"
   },
   "private": true,
   "dependencies": {
