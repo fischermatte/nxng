@@ -16,7 +16,10 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/nxng/tsconfig.app.json",
         "assets": ["apps/nxng/src/favicon.ico", "apps/nxng/src/assets"],
-        "styles": ["apps/nxng/src/styles.css"],
+        "styles": [
+          "@angular/material/prebuilt-themes/indigo-pink.css",
+          "apps/nxng/src/styles.css"
+        ],
         "scripts": []
       },
       "configurations": {

@@ -1,3 +1,19 @@
 import { Route } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { ChangelogComponent } from './changelog/Changelog.component';
 
-export const appRoutes: Route[] = [];
+export const appRoutes: Route[] = [
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home',
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
+  },
+  {
+    path: 'changelog',
+    component: ChangelogComponent,
+  },
+];

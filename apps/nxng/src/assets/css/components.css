@@ -1,0 +1,8 @@
+mat-nav-list.list-horizontal {
+    display: flex;
+    flex-direction: row;
+    mat-list-item {
+      height: auto;
+      width: auto;
+    }
+  }
