@@ -1,6 +1,6 @@
 {
   "name": "@nxng/source",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "nx serve nxng",
@@ -8,7 +8,8 @@
     "test": "nx test nxng",
     "lint": "nx lint nxng",
     "e2e": "nx e2e nxng-e2e",
-    "e2e:dev": "nx e2e nxng-e2e --baseUrl=https://nxng-fm.netlify.app"
+    "e2e:dev": "nx e2e nxng-e2e --baseUrl=https://nxng-fm.netlify.app",
+    "release": "commit-and-tag-version"
   },
   "private": true,
   "dependencies": {
@@ -50,6 +51,7 @@
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "autoprefixer": "^10.4.0",
+    "commit-and-tag-version": "^11.3.0",
     "cypress": "^13.0.0",
     "eslint": "~8.46.0",
     "eslint-config-prettier": "^9.0.0",
