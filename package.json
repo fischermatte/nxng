@@ -2,7 +2,12 @@
   "name": "@nxng/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve nxng",
+    "build": "nx build nxng",
+    "test": "nx test nxng",
+    "lint": "nx lint nxng"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.0",
